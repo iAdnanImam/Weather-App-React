@@ -1,0 +1,43 @@
+/* Reset + basic styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f2994a, #f2c94c);
+  min-height: 100vh;
+  color: white;
+}
+
+.app-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.app-container h1{
+  text-align: center;
+  font-size: 5rem;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Layout for weather cards */
+.weather-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .weather-sections {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

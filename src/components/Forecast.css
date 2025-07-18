@@ -1,0 +1,26 @@
+.forecast-container {
+  flex: 2;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  height: 32.3rem;
+  transition: transform 0.3s;
+}
+
+.forecast-container:hover{
+    transform: scale(1.02);
+}
+
+.forecast-container h2 {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.forecast-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1.5rem;
+}
