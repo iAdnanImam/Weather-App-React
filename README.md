@@ -15,7 +15,7 @@ A modern, responsive weather application built using **React** and **Vite**. It 
 
 ## 🚀 Live Demo
 
-- 🌐 Visit WanderLust : https://weather-app-react-deploy.vercel.app
+- 🌐 Visit Website : https://weather-app-react-deploy.vercel.app
 - 🧑‍💻 GitHub Repository: https://github.com/iAdnanImam/Weather-App-React.git
 
 ---
